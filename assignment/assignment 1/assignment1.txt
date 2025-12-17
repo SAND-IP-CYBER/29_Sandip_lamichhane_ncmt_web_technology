@@ -1,1 +1,15 @@
-abc
+Define the term protocol in context of internet?
+>= A protocol is a standarized set of rules and procedures that govern how data is formatted, transmitted and received between devices acting like a common language for computer to ensure seamless communication.
+Key aspects: 
+Rules and standards: protocol defines syntax (format), semantics(meaning), and timing for data exchange.
+Universal language : They allow diverse hardware and software to communicate as long as they follow the same protocol
+Examples: Http,TCP,IP.
+
+What is the primary difference between web browser and search engine?
+Ans= A web browser is a software to veiw websites, while a search engine is a website service used to find informaion on across those websites.
+> web browser= software installed on the device and displays the webpages from the internet.
+>Search engine= A powerful database and algorithm through a browser to locate specific information on vast World Wide Web.
+
+Define World Wide Web (WWW)?
+Ans= A global system of interlinked hypertext documents (webpages) accessed via internet, allowing user to veiw text, images and other media throught browser using protocol like http to transfer data between the server and client. Its the service on the internet. 
+
