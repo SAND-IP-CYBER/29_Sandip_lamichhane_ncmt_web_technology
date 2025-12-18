@@ -1,15 +1,23 @@
-Define the term protocol in context of internet?
->= A protocol is a standarized set of rules and procedures that govern how data is formatted, transmitted and received between devices acting like a common language for computer to ensure seamless communication.
+1.Define the term protocol in context of internet?
+Ans= A protocol is a standarized set of rules and procedures that govern how data is formatted, transmitted and received between devices acting like a common language for computer to ensure seamless communication.
 Key aspects: 
 Rules and standards: protocol defines syntax (format), semantics(meaning), and timing for data exchange.
 Universal language : They allow diverse hardware and software to communicate as long as they follow the same protocol
 Examples: Http,TCP,IP.
 
-What is the primary difference between web browser and search engine?
+2.What is the primary difference between web browser and search engine?
 Ans= A web browser is a software to veiw websites, while a search engine is a website service used to find informaion on across those websites.
 > web browser= software installed on the device and displays the webpages from the internet.
 >Search engine= A powerful database and algorithm through a browser to locate specific information on vast World Wide Web.
 
-Define World Wide Web (WWW)?
+3.Define World Wide Web (WWW)?
 Ans= A global system of interlinked hypertext documents (webpages) accessed via internet, allowing user to veiw text, images and other media throught browser using protocol like http to transfer data between the server and client. Its the service on the internet. 
+
+4.Distinguish between a static web page and a dynamic web page?
+Ans= A static web page delivers the exact same, pre-coded html content to evry user, regardless of who veiw visit  or when. It is stored in a simple file on the server and doesnot change unless a devloper manually update the source code.
+ In constrast, a dynamic webpage is generated in real time, with contain that can change based on their user interaction, such as login information, or database queries.
+Long questions??
+ 5.Explain the client-server architecture of the web with a neat diagram? 
+Ans= The web client server architecture divides the task betwwen the clients and server over a network, following the request response cycle where clients ask for resourses and server processes and sent back the data allowing user to veiw and interact with websites through their devices. 
+
 
