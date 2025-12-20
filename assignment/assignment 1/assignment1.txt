@@ -17,7 +17,38 @@ Ans= A global system of interlinked hypertext documents (webpages) accessed via 
 Ans= A static web page delivers the exact same, pre-coded html content to evry user, regardless of who veiw visit  or when. It is stored in a simple file on the server and doesnot change unless a devloper manually update the source code.
  In constrast, a dynamic webpage is generated in real time, with contain that can change based on their user interaction, such as login information, or database queries.
 Long questions??
- 5.Explain the client-server architecture of the web with a neat diagram? 
-Ans= The web client server architecture divides the task betwwen the clients and server over a network, following the request response cycle where clients ask for resourses and server processes and sent back the data allowing user to veiw and interact with websites through their devices. 
+ 5) Explain the Client-Server architecture of the web with a neat diagram?
+Ans= Client-Server architecture is a model in which tasks are divided between the client and the server over a network using a request–response method.
+It is centralized, which makes it easier to manage, secure, and back up data on the server. It can handle multiple users by increasing server capacity, which distributes the workload and allows many clients to access shared resources efficiently.
+6) Describe the functions of the following internet services: Email, FTP and VoIP?
+
+Ans=The mentioned internet services are basic internet services, each with its own main function.
+Email (Electronic Mail):
+The main function of email is to allow users to send, receive, and manage digital messages and attachments through the internet. It provides fast, global communication for both personal and professional use.
+FTP (File Transfer Protocol):
+The main function of FTP is to enable the transfer of files between a client and a server on a network. It is mainly used for uploading web pages, images, and documents to a website server or downloading large software files and data backups.
+VoIP (Voice over IP):
+The function of VoIP is to provide voice communication and multimedia services over internet protocol networks. It converts voice signals into digital data packets and sends them over the network, allowing phone calls, video meetings, and other communication using an internet connection instead of traditional phone lines.
+
+7) “The Internet is a network of networks”. Elaborate on this statement explaining how packet switching works.
+Ans=The internet is not a single system. Instead, it is a huge decentralized collection of LANs, MANs, and WANs owned by homes, businesses, governments, universities, and internet service providers. These different networks are connected through devices like routers and switches, which communicate using the common Internet Protocol Suite (TCP/IP). This setup allows data to move smoothly from one network to another, regardless of physical technology. Therefore, the internet is called a network of networks.
+Packet switching works by breaking data into small packets and adding header information such as source, destination, and sequence number. These packets are sent independently through shared network paths using routers, which select the best route. At the destination, the packets are reassembled, allowing efficient use of resources and reliability since packets can take different paths to avoid congestion.
+
+8) A startup company wants to host a website that displays the same information to all visitors and requires very low maintenance costs. However, they are being advised to use a dynamic website. As a consultant, would you agree? Justify your answer?
+
+Ans=As a consultant, I would not agree with the advice to use a dynamic website in this situation. A startup that wants to show the same information to all users and needs very low maintenance costs clearly requires a static website.
+Static websites consist of pre-built files served directly to users. They do not require server-side processing for each request. In contrast, dynamic websites generate content in real time using server-side scripts and databases, making them more complex and costly to maintain. They also have more possible security risks that need regular monitoring and updates.
+Static websites offer low maintenance, high performance, better security, and cost-effective hosting. They also manage traffic spikes easily because serving static files uses fewer resources. Hence, a static website is the most suitable choice for this case.
+
+9) A user types www.google.com into their browser, but the browser displays a “Server Not Found” error, even though the internet connection is active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed?
+
+Ans= The issue is related to the Domain Name System (DNS). Since the website opens using the IP address but not the domain name, it shows that the internet connection is working and Google’s server is reachable.The problem lies in converting the human-readable domain name into a machine-readable IP address. The “Server Not Found” error means the DNS resolution process failed. The computer’s DNS resolver could not successfully translate www.google.com into its IP address.Possible reasons include incorrect DNS settings, a damaged DNS cache, ISP DNS problems, firewall blocking, or malware. Since the IP address works, the problem is not with Google’s server or the user’s internet connection, but specifically with the DNS lookup process.
+10) A multinational corporation wants to share sensitive inventory data with specific suppliers but does not want this information available to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why?
+
+Ans= The corporation should implement an Extranet. An extranet provides the right balance between accessibility and security for this requirement.It allows the company to give specific login credentials and permissions so that only authorized suppliers can access the data. Extranets are protected by firewalls, encryption, and other security measures to prevent unauthorized access by the public.An extranet supports secure collaboration and data sharing without exposing internal systems to the open internet. It is also a cost-effective solution for controlled data access. Therefore, an extranet is the best choice for this scenario.
+
+
+
+ 
 
 
